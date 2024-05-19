@@ -1,0 +1,34 @@
+
+
+body {
+    background-image: url('https://asset-a.grid.id//crop/0x0:1500x962/700x465/photo/2020/09/29/3812080801.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family:verdana;
+    font-size: 14px;
+    }
+
+.judul {
+    width: 50em;
+    border: 3px solid #DE3163;
+    box-shadow: 9px 6px 4px #5B2C6F;
+    padding: 7px 9px;
+    background-image: linear-gradient(150deg, #EAFAF1 , #E8DAEF 30%,#E5E8E8 );
+    }
+
+h1 {
+    color:rgb(57, 63, 61);
+    text-align: center;
+    }
+
+table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    }
+    
+p  {
+    font-family:verdana;
+    font-size: 18px;
+    font-weight:bold;
+    }

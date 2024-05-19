@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas1 Rumus Segitiga by Pradu</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <center>
+      <div class="judul">
+        <h1>Kalkulator Luas dan Keliling Segitiga.</h1>
+     </div>
+    <p>Cinta matematika mari kita mengajarkan pada anak - anak kita untuk belajar.</p>
+    <img src="https://pulpent.com/wp-content/uploads/2021/08/Rumus-Segitiga.jpg.webp" alt="Rumus keliling dan luas segitiga">
+    <h2> Simbol dan keterangannya</h2>
+  <table>  
+      <tr>
+        <th>No</th>
+        <th>Simbol</th>
+        <th>Keterangan</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>K</td>
+        <td>Keliling</td>
+      </tr>
+      <tr>
+      <td>2</td>
+        <td>S</td>
+        <td>Sisi</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>L</td>
+        <td>Luas</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>T</td>
+        <td>Tinggi</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>a</td>
+        <td>Alas</td>
+      </tr>
+  </table>
+
+    
+  <form>   
+    <h2> Keliling Segitiga</h2>
+    Sisi 1: <input id="sisi1">
+    Sisi 2: <input id="sisi2">
+    Sisi 3: <input id="sisi3">
+    <input type="button" onClick="add()" Value="Keliling"> 
+    <p> Hasil Perhitungan: <br>
+    <span id="keliling"></span></p>
+
+    <h2>Luas Segitiga</h2>
+    Alas segitiga  : <input type="text" id="alas" >
+    Tinggi Segitiga: <input type="text" id="tinggi">
+    <input type="button" onClick="multiplyBy()" Value="Luas Segitiga">
+    <input type="reset" value="Reset">
+    <p>Hasil Perhitungan: <br>
+    <span id="luas"></span></p>
+  </form>
+          
+</center>
+<br>
+<br>
+<script src="/script.js"></script>
+</body>
+</html>
